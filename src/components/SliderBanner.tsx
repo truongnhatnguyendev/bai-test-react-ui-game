@@ -111,7 +111,6 @@ export const SliderBanner: React.FC<SliderBannerProps> = ({ banners }) => {
       <div className="md:hidden block">
         <Swiper
           className="!overflow-visible"
-          spaceBetween={30}
           effect={"fade"}
           loop
           navigation={true}

@@ -12,7 +12,7 @@ export const GameProviderCard: React.FC<GameProviderCardProps> = ({
   totalGames,
 }) => {
   return (
-    <div className="bg-primary-200 rounded-lg overflow-hidden w-[156px] h-[122px] flex flex-col items-center justify-between text-white shadow-md">
+    <div className="bg-primary-200 rounded-lg overflow-hidden sm:w-[156px] w-[120px] h-[122px] flex flex-col items-center justify-between text-white shadow-md">
       <div className="flex-1 flex items-center justify-center w-[93px] h-[30px]">
         <img src={logo} alt={name} className="max-h-[60px] object-contain" />
       </div>
