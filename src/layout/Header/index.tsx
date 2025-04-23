@@ -1,3 +1,4 @@
+import { CiSearch } from "react-icons/ci";
 import { Link } from "react-router-dom";
 
 const menus = [
@@ -11,7 +12,7 @@ const menus = [
 
 export const Header = () => {
   return (
-    <header className="bg-primary font-primary text-white py-3">
+    <header className="bg-primary  text-white py-3">
       <div className="flex items-center justify-between  container mx-auto px-6">
         <div className="flex items-center space-x-4">
           <button className=" p-2 -ml-2">
@@ -59,7 +60,10 @@ export const Header = () => {
               />
             </svg>
           </div>
-          <nav className="hidden md:flex space-x-6 text-sm font-medium leading-5">
+          <nav className="hidden md:flex space-x-6 text-sm font-medium leading-5 items-center ml-12">
+            <div className="text-2xl">
+              <CiSearch />
+            </div>
             {menus.map((item, index) => (
               <Link
                 key={index}
@@ -72,10 +76,10 @@ export const Header = () => {
           </nav>
         </div>
         <div className="space-x-3">
-          <button className="bg-transparent border border-white px-3 py-1 rounded text-sm">
+          <button className=" bg-primary-50 px-3 py-1 rounded-lg text-sm">
             Login
           </button>
-          <button className="bg-green-500 px-3 py-1 rounded text-sm">
+          <button className="bg-green-600 px-3 py-1 rounded-lg text-sm">
             Registration
           </button>
         </div>
