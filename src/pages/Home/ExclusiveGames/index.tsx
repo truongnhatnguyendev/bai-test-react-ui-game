@@ -1,20 +1,21 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 import { GameSection } from "components/GameSection";
 import { GameCard, GameCardProps } from "components/Card/Card";
+import { IMAGES } from "assets";
 
 const games: GameCardProps[] = [
   { title: "Deep Dive", image: "", tag: "HOT" },
   { title: "Deep Dive", image: "", tag: "HOT" },
   { title: "Match Hero", image: "", tag: "NEW" },
   { title: "Match Hero", image: "" },
-  { title: "", image: "/src/assets/image.png" },
-  { title: "", image: "/src/assets/image.png" },
-  { title: "", image: "/src/assets/image.png" },
-  { title: "", image: "/src/assets/image.png" },
-  { title: "", image: "/src/assets/image.png" },
-  { title: "", image: "/src/assets/image.png" },
-  { title: "", image: "/src/assets/image.png" },
-  { title: "", image: "/src/assets/image.png" },
+  { title: "", image: IMAGES.game },
+  { title: "", image: IMAGES.game },
+  { title: "", image: IMAGES.game },
+  { title: "", image: IMAGES.game },
+  { title: "", image: IMAGES.game },
+  { title: "", image: IMAGES.game },
+  { title: "", image: IMAGES.game },
+  { title: "", image: IMAGES.game },
 ];
 
 export const ExclusiveGames = () => {

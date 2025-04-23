@@ -6,7 +6,7 @@ import p2p from "./icons/p2p.png";
 
 import banner from "./banner/image.png";
 import provider from "./providerGame/image.png";
-import game from "./image.png";
+import game from "./card/image.png";
 import logo from "./logo.png";
 
 export const ICONS = {

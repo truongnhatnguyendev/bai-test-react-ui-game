@@ -2,50 +2,52 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import { GameSection } from "components/GameSection";
 import { GameProviderCard } from "components/GameProviderCard";
 
+import { IMAGES } from "assets";
+
 export const Providers = () => {
   const providers = [
     {
-      logo: "/src/assets/providerGame/image.png",
+      logo: IMAGES.provider,
       name: "Evolution",
       totalGames: 312,
     },
     {
-      logo: "/src/assets/providerGame/image.png",
+      logo: IMAGES.provider,
       name: "Spribe",
       totalGames: 312,
     },
     {
-      logo: "/src/assets/providerGame/image.png",
+      logo: IMAGES.provider,
       name: "Wazdan",
       totalGames: 312,
     },
     {
-      logo: "/src/assets/providerGame/image.png",
+      logo: IMAGES.provider,
       name: "Turbo Games",
       totalGames: 312,
     },
     {
-      logo: "/src/assets/providerGame/image.png",
+      logo: IMAGES.provider,
       name: "Wazdan",
       totalGames: 312,
     },
     {
-      logo: "/src/assets/providerGame/image.png",
+      logo: IMAGES.provider,
       name: "Wazdan",
       totalGames: 312,
     },
     {
-      logo: "/src/assets/providerGame/image.png",
+      logo: IMAGES.provider,
       name: "Wazdan",
       totalGames: 312,
     },
     {
-      logo: "/src/assets/providerGame/image.png",
+      logo: IMAGES.provider,
       name: "Wazdan",
       totalGames: 312,
     },
     {
-      logo: "/src/assets/providerGame/image.png",
+      logo: IMAGES.provider,
       name: "Wazdan",
       totalGames: 312,
     },
