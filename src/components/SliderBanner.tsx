@@ -72,10 +72,10 @@ export const SliderBanner: React.FC<SliderBannerProps> = ({ banners }) => {
                   <IoAlertCircleOutline />
                 </div>
                 <div className="flex-1 flex flex-col items-center bottom-5 z-10 justify-center mb-0">
-                  <div className="bg-white/10 text-xs px-3 py-1 rounded-full inline-block mb-4">
+                  <div className="bg-white/10 text-xl font-medium leading-[30px] w-[236px] px-3 py-1 rounded-full inline-block mb-4 text-center justify-center align-middle">
                     {banner.tag}
                   </div>
-                  <h2 className="text-3xl font-extrabold w-[330px] leading-[38px] text-center mb-4">
+                  <h2 className="text-[42px] font-extrabold w-[420px] leading-[58.8px] text-center mb-4">
                     {banner.title}
                   </h2>
                   {banner.subtitle && (
@@ -85,9 +85,11 @@ export const SliderBanner: React.FC<SliderBannerProps> = ({ banners }) => {
                   )}
                   <button
                     onClick={banner.onClick}
-                    className="bg-pink-600 h-[50px]  w-[340px] hover:bg-pink-500 text-white text-sm font-bold px-5 py-2 rounded-lg transition"
+                    className="bg-pink-600 h-[50px] flex items-center justify-center w-[340px] hover:bg-pink-700  px-5 py-2 rounded-lg transition"
                   >
-                    {banner.buttonText}
+                    <span className="text-white text-xl font-[600px] tracking-[1.26px] leading-5">
+                      {banner.buttonText}
+                    </span>
                   </button>
                 </div>
                 <div className="w-[585px] h-[485px]">

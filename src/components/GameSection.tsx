@@ -14,7 +14,7 @@ export const GameSection = ({
   children,
 }: GameSectionProps) => {
   return (
-    <section className="py-8 bg-[#0B1D3A] text-white">
+    <section className="py-8 bg-primary text-white">
       <div className="flex items-center justify-between mb-4">
         <h2 className="text-xl md:text-2xl font-semibold">{title}</h2>
         <div className="flex items-center gap-2">

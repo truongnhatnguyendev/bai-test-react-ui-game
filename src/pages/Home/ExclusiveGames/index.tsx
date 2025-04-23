@@ -3,17 +3,17 @@ import { GameSection } from "components/GameSection";
 import { GameCard, GameCardProps } from "components/Card";
 
 const games: GameCardProps[] = [
-  { title: "Deep Dive", image: "/images/deep.jpg", tag: "HOT" },
-  { title: "Match Hero", image: "/images/match.jpg", tag: "NEW" },
+  { title: "Deep Dive", image: "", tag: "HOT" },
+  { title: "Match Hero", image: "", tag: "NEW" },
   { title: "Match Hero", image: "" },
-  { title: "Football Bet", image: "/src/assets/image.png" },
-  { title: "Football Bet", image: "/src/assets/image.png" },
-  { title: "Football Bet", image: "/src/assets/image.png" },
-  { title: "Football Bet", image: "/src/assets/image.png" },
-  { title: "Football Bet", image: "/src/assets/image.png" },
-  { title: "Football Bet", image: "/src/assets/image.png" },
-  { title: "Football Bet", image: "/src/assets/image.png" },
-  { title: "Football Bet", image: "/src/assets/image.png" },
+  { title: "", image: "/src/assets/image.png" },
+  { title: "", image: "/src/assets/image.png" },
+  { title: "", image: "/src/assets/image.png" },
+  { title: "", image: "/src/assets/image.png" },
+  { title: "", image: "/src/assets/image.png" },
+  { title: "", image: "/src/assets/image.png" },
+  { title: "", image: "/src/assets/image.png" },
+  { title: "", image: "/src/assets/image.png" },
 ];
 
 export const ExclusiveGames = () => {

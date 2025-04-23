@@ -11,7 +11,7 @@ const menus = [
 
 export const Header = () => {
   return (
-    <header className="bg-[#03193a] text-white py-3">
+    <header className="bg-primary font-primary text-white py-3">
       <div className="flex items-center justify-between  container mx-auto px-6">
         <div className="flex items-center space-x-4">
           <button className=" p-2 -ml-2">
@@ -59,9 +59,13 @@ export const Header = () => {
               />
             </svg>
           </div>
-          <nav className="hidden md:flex space-x-6 text-sm">
+          <nav className="hidden md:flex space-x-6 text-sm font-medium leading-5">
             {menus.map((item, index) => (
-              <Link key={index} to={item.to} className="uppercase">
+              <Link
+                key={index}
+                to={item.to}
+                className="uppercase text-[#CAD3E1] tracking-[0.42px]"
+              >
                 {item.label}
               </Link>
             ))}

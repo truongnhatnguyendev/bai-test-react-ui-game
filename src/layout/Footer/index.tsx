@@ -55,15 +55,15 @@ export const Footer = () => {
   const [openIndexes, setOpenIndexes] = useState<number[]>([]);
 
   return (
-    <footer className="bg-[#152e54] text-white py-10">
+    <footer className="bg-primary-100 text-white py-10">
       <div className="hidden md:flex max-md:flex-col gap-10 justify-between text-sm container mx-auto px-6">
-        <div>
-          <h4 className="font-semibold text-base mb-2">Help Center</h4>
-          <p className="mb-3 text-gray-300">If you have any questions?</p>
-          <button className="bg-blue-600 hover:bg-blue-500 text-white text-sm px-4 py-2 rounded mb-4">
+        <div className="w-[200px]">
+          <h4 className="font-medium text-2xl mb-2">Help Center</h4>
+          <p className="mb-3 text-gray-400">If you have any questions?</p>
+          <button className="bg-blue-600 hover:bg-blue-500 text-white text-sm px-3 py-2 rounded-[10px] mb-8 w-[200px] h-[40px]">
             GET ANSWERS
           </button>
-          <div className="flex gap-3 text-xl text-gray-300">
+          <div className="flex justify-between text-xl text-gray-300 w-full">
             {socialIcons.map((Icon, i) => (
               <Icon key={i} />
             ))}
@@ -77,18 +77,18 @@ export const Footer = () => {
           </div>
         ))}
         <div className="flex flex-col items-start gap-2">
-          <div className="flex w-[160px] items-center gap-2 bg-[#12294A] px-3 py-2 rounded cursor-pointer">
+          <div className="flex w-[160px] items-center gap-2 bg-primary-50 px-3 py-2 rounded cursor-pointer">
             <SiApple size={24} />
             <span>
               Bluechip App <p>for Mac OS</p>
             </span>
           </div>
           <div className="flex gap-2">
-            <div className="flex flex-col items-center gap-1 w-[76px] bg-[#12294A] px-3 py-2 rounded cursor-pointer">
+            <div className="flex flex-col items-center gap-1 w-[76px] bg-primary-50 px-3 py-2 rounded cursor-pointer">
               <SiAndroid size={24} />
               <span className="text-[#90A2BD]">Android</span>
             </div>
-            <div className="flex flex-col items-center w-[76px] gap-1 bg-[#12294A] px-3 py-2 rounded cursor-pointer">
+            <div className="flex flex-col items-center w-[76px] gap-1 bg-primary-50 px-3 py-2 rounded cursor-pointer">
               <SiApple size={24} />
               <span className="text-[#90A2BD]">iOS</span>
             </div>

@@ -5,6 +5,13 @@ export const Banner = () => {
   const banners = [
     {
       id: 1,
+      title: "Another Event: Win Big!",
+      buttonText: "PLAY NOW",
+      imageUrl: IMAGES.banner,
+      tag: "Hot Promo",
+    },
+    {
+      id: 2,
       title: "Piggy Christmas Tap: €35,000 For Your Wins",
       buttonText: "JOIN AND WIN",
       imageUrl: IMAGES.banner,
@@ -12,15 +19,8 @@ export const Banner = () => {
       onClick: () => console.log("Join clicked"),
     },
     {
-      id: 2,
-      title: "Another Event: Win Big!",
-      buttonText: "PLAY NOW",
-      imageUrl: IMAGES.banner,
-      tag: "Hot Promo",
-    },
-    {
       id: 3,
-      title: "Another Event: Win Big!",
+      title: "Another Event: Win Or Lose To €10,000!",
       buttonText: "PLAY NOW",
       imageUrl: IMAGES.banner,
       tag: "Hot Promo",

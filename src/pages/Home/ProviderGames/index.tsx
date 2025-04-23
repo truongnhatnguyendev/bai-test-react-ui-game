@@ -26,27 +26,27 @@ export const Providers = () => {
     },
     {
       logo: "/src/assets/providerGame/image.png",
-      name: "100H Gaming",
+      name: "Wazdan",
       totalGames: 312,
     },
     {
       logo: "/src/assets/providerGame/image.png",
-      name: "100H Gaming",
+      name: "Wazdan",
       totalGames: 312,
     },
     {
       logo: "/src/assets/providerGame/image.png",
-      name: "100H Gaming",
+      name: "Wazdan",
       totalGames: 312,
     },
     {
       logo: "/src/assets/providerGame/image.png",
-      name: "100H Gaming",
+      name: "Wazdan",
       totalGames: 312,
     },
     {
       logo: "/src/assets/providerGame/image.png",
-      name: "100H Gaming",
+      name: "Wazdan",
       totalGames: 312,
     },
   ];

@@ -22,9 +22,9 @@ export const IconTextButton: React.FC<IconTextButtonProps> = ({
       onClick={() => onClick(path)}
       className={`flex items-center justify-center align-middle gap-2 sm:w-[197px] w-[122px] h-[57px] rounded-lg border border-[#294060]  text-white hover:opacity-90 transition cursor-pointer ${classname}`}
     >
-      {img && <img src={img} alt={label} className="w-5 h-5 object-contain " />}
+      {img && <img src={img} alt={label} className="w-5 h-5 object-contain" />}
       {icon && <div className="mr-1 text-xl">{icon}</div>}
-      <span className="text-sm font-medium">{label}</span>
+      <span className="text-base font-normal tracking-normal">{label}</span>
     </button>
   );
 };

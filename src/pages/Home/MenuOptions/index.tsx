@@ -76,7 +76,7 @@ export const MenuOptions = () => {
   }
 
   return (
-    <div className="flex flex-wrap gap-2 justify-center">
+    <div className="flex flex-wrap gap-2 justify-center mb-3">
       {menus.map((menu, idx) => {
         const visibilityClass =
           menu.visibleOn === "mobile"

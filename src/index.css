@@ -4,3 +4,11 @@
 @import "swiper/css/effect-coverflow";
 @import "swiper/css/effect-fade";
 @import "swiper/css/autoplay";
+
+@theme {
+  --font-primary: "Jost", "sans-serif";
+  --color-primary: #03193a;
+  --color-primary-50: #1a3157;
+  --color-primary-100: #152e54;
+  --color-primary-200: #12294a;
+}
