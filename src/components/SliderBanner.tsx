@@ -4,13 +4,19 @@ import { EffectCoverflow, EffectFade, Pagination } from "swiper/modules";
 
 import { IoAlertCircleOutline } from "react-icons/io5";
 
-interface BannerItem {
+interface BackgroundClass {
+  desktop: string;
+  mobile: string;
+}
+
+export interface BannerItem {
   id: number;
   title: string;
   subtitle?: string;
   buttonText: string;
   imageUrl: string;
   tag?: string;
+  backgroundClass?: BackgroundClass;
   onClick?: () => void;
 }
 
@@ -50,10 +56,8 @@ export const SliderBanner: React.FC<SliderBannerProps> = ({ banners }) => {
           {banners.map((banner) => (
             <SwiperSlide key={banner.id}>
               <div
-                className="
-                   bg-gradient-to-br 
-                  from-teal-700
-                  to-green-950
+                className={`
+                    ${banner.backgroundClass?.desktop}
                   text-white 
                    rounded-2xl 
                    h-[423px] 
@@ -66,7 +70,7 @@ export const SliderBanner: React.FC<SliderBannerProps> = ({ banners }) => {
                    justify-between 
                    w-[1198px] 
                    max-w-[1198px] 
-                   overflow-hidden"
+                   overflow-hidden`}
               >
                 <div className="absolute top-2 right-3 text-2xl">
                   <IoAlertCircleOutline />
@@ -119,11 +123,9 @@ export const SliderBanner: React.FC<SliderBannerProps> = ({ banners }) => {
           {banners.map((banner) => (
             <SwiperSlide key={banner.id}>
               <div
-                className="
-                  bg-gradient-to-b
-                from-teal-700
+                className={`
+                   ${banner.backgroundClass?.mobile}
                   z-10
-                 to-green-950
                  text-white 
                   rounded-2xl 
                   p-4
@@ -133,7 +135,7 @@ export const SliderBanner: React.FC<SliderBannerProps> = ({ banners }) => {
                   w-full
                   relative
                   items-center 
-            "
+            `}
               >
                 <div className="absolute top-2 right-3 text-2xl">
                   <IoAlertCircleOutline />

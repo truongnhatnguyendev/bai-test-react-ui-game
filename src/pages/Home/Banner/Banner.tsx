@@ -1,14 +1,18 @@
-import { SliderBanner } from "components/SliderBanner";
+import { BannerItem, SliderBanner } from "components/SliderBanner";
 import { IMAGES } from "assets";
 import "./Banner.css";
 
 export const Banner = () => {
-  const banners = [
+  const banners: BannerItem[] = [
     {
       id: 1,
       title: "Another Event: Win Big!",
       buttonText: "PLAY NOW",
       imageUrl: IMAGES.banner,
+      backgroundClass: {
+        desktop: "bg-gradient-to-br from-teal-700 to-green-950",
+        mobile: "bg-gradient-to-b from-teal-700 to-green-950",
+      },
       tag: "Hot Promo",
     },
     {
@@ -17,6 +21,10 @@ export const Banner = () => {
       buttonText: "JOIN AND WIN",
       imageUrl: IMAGES.banner,
       tag: "Exclusive Tournament",
+      backgroundClass: {
+        desktop: "bg-gradient-to-br from-teal-700 to-green-950",
+        mobile: "bg-gradient-to-b from-teal-700 to-green-950",
+      },
       onClick: () => console.log("Join clicked"),
     },
     {
@@ -24,6 +32,10 @@ export const Banner = () => {
       title: "Another Event: Win Or Lose To €10,000!",
       buttonText: "PLAY NOW",
       imageUrl: IMAGES.banner,
+      backgroundClass: {
+        desktop: "bg-gradient-to-br from-teal-700 to-green-950",
+        mobile: "bg-gradient-to-b from-teal-700 to-green-950",
+      },
       tag: "Hot Promo",
     },
   ];
