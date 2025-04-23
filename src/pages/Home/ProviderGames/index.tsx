@@ -53,17 +53,19 @@ export const Providers = () => {
 
   return (
     <GameSection title="All Providers" seeAllLink="/exclusive">
-      <Swiper spaceBetween={20} slidesPerView={"auto"}>
-        {providers.map((game, index) => (
-          <SwiperSlide key={index} style={{ width: "auto" }}>
-            <GameProviderCard
-              logo={game.logo}
-              name={game.name}
-              totalGames={game.totalGames}
-            />
-          </SwiperSlide>
-        ))}
-      </Swiper>
+      <div className="sm:mx-10 mx-0">
+        <Swiper spaceBetween={20} slidesPerView={"auto"}>
+          {providers.map((game, index) => (
+            <SwiperSlide key={index} style={{ width: "auto" }}>
+              <GameProviderCard
+                logo={game.logo}
+                name={game.name}
+                totalGames={game.totalGames}
+              />
+            </SwiperSlide>
+          ))}
+        </Swiper>
+      </div>
     </GameSection>
   );
 };
