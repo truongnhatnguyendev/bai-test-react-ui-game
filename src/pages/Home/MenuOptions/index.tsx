@@ -1,10 +1,10 @@
 import { useNavigate } from "react-router-dom";
-import { IconTextButton } from "../../../components/IconTextButton";
+import { IconTextButton } from "components/IconTextButton";
 import { GrGamepad } from "react-icons/gr";
 import { BsSliders } from "react-icons/bs";
 import { CiSearch } from "react-icons/ci";
 
-import { ICONS } from "../../../assets";
+import { ICONS } from "assets";
 
 interface MenuOptionsProps {
   label: string;

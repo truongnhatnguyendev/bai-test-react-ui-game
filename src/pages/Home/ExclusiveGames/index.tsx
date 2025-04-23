@@ -1,6 +1,6 @@
 import { Swiper, SwiperSlide } from "swiper/react";
-import { GameSection } from "../../../components/GameSection";
-import { GameCard, GameCardProps } from "../../../components/Card";
+import { GameSection } from "components/GameSection";
+import { GameCard, GameCardProps } from "components/Card";
 
 const games: GameCardProps[] = [
   { title: "Deep Dive", image: "/images/deep.jpg", tag: "HOT" },

@@ -1,6 +1,6 @@
 import { Swiper, SwiperSlide } from "swiper/react";
-import { GameSection } from "../../../components/GameSection";
-import { GameProviderCard } from "../../../components/GameProviderCard";
+import { GameSection } from "components/GameSection";
+import { GameProviderCard } from "components/GameProviderCard";
 
 export const Providers = () => {
   const providers = [

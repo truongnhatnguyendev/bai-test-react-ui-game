@@ -6,8 +6,8 @@ import {
 } from "react-icons/fa";
 import { SiAndroid, SiApple } from "react-icons/si";
 import { useState } from "react";
-import { Dropdown } from "../../components/Dropdown";
-import { CommonList } from "../../components/CommonList";
+import { Dropdown } from "components/Dropdown";
+import { CommonList } from "components/CommonList";
 
 const games = [
   { label: "Game 1", to: "/games/1" },

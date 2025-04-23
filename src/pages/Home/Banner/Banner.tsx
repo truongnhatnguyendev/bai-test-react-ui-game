@@ -1,5 +1,5 @@
-import { SliderBanner } from "../../../components/SliderBanner";
-import { IMAGES } from "../../../assets";
+import { SliderBanner } from "components/SliderBanner";
+import { IMAGES } from "assets";
 
 export const Banner = () => {
   const banners = [
