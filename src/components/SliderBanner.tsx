@@ -51,13 +51,13 @@ export const SliderBanner: React.FC<SliderBannerProps> = ({ banners }) => {
             <SwiperSlide key={banner.id}>
               <div
                 className="
-                   bg-gradient-to-r 
+                   bg-gradient-to-br 
                   from-teal-700
-                   z-10
-                 to-teal-900
-                 text-white 
+                  to-green-950
+                  text-white 
                    rounded-2xl 
                    h-[423px] 
+                   z-10
                    flex 
                    p-6  
                    flex-row 
@@ -123,7 +123,7 @@ export const SliderBanner: React.FC<SliderBannerProps> = ({ banners }) => {
                   bg-gradient-to-b
                 from-teal-700
                   z-10
-                 to-teal-900
+                 to-green-950
                  text-white 
                   rounded-2xl 
                   p-4

@@ -1,5 +1,6 @@
 import { SliderBanner } from "components/SliderBanner";
 import { IMAGES } from "assets";
+import "./Banner.css";
 
 export const Banner = () => {
   const banners = [

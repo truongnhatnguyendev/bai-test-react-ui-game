@@ -1,0 +1,11 @@
+.swiper-horizontal > .swiper-pagination-bullets,
+.swiper-pagination-bullets.swiper-pagination-horizontal {
+  bottom: -30px !important;
+}
+
+.swiper-pagination-bullet-active {
+  background-color: white !important;
+}
+.swiper-pagination-bullet {
+  background-color: rgb(233, 231, 231) !important;
+}
