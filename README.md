@@ -1,5 +1,47 @@
 # React + TypeScript + Vite
 
+# Bài Test - Frontend Developer
+
+## 🖼️ Ảnh Chụp Bài Test
+
+Dưới đây là ảnh chụp giao diện hoàn chỉnh:
+
+| Desktop                                          | Mobile                                         |
+| ------------------------------------------------ | ---------------------------------------------- |
+| ![Desktop Screenshot](./screenshots/desktop.png) | ![Mobile Screenshot](./screenshots/mobile.png) |
+
+---
+
+## 🚀 Link Deploy
+
+👉 [Xem demo tại đây](https://bai-test-react-ui-game-6fnldg5ca-nguyendevs-projects-43862de0.vercel.app/)
+
+---
+
+## 🧾 Thông tin thêm
+
+- Framework: React + TypeScript
+- UI Library: TailwindCSS
+- SwiperJS for Slider
+- Responsive: ✅ Mobile / Desktop
+
+## 📂 Hướng dẫn chạy dự án
+
+````bash
+npm install
+npm run dev
+
+
+
+
+
+
+
+
+
+
+
+
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 Currently, two official plugins are available:
@@ -29,26 +71,26 @@ export default tseslint.config({
     },
   },
 })
-```
+````
 
 You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
 
 ```js
 // eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+import reactX from "eslint-plugin-react-x";
+import reactDom from "eslint-plugin-react-dom";
 
 export default tseslint.config({
   plugins: {
     // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
+    "react-x": reactX,
+    "react-dom": reactDom,
   },
   rules: {
     // other rules...
     // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
+    ...reactX.configs["recommended-typescript"].rules,
     ...reactDom.configs.recommended.rules,
   },
-})
+});
 ```
