@@ -1,0 +1,28 @@
+.card .tagNew:after {
+  border-bottom: 4px solid transparent;
+  border-right: 5px solid #118e59;
+  bottom: -4px;
+  content: "";
+  display: block;
+  height: 0px;
+  left: -5px;
+  position: absolute;
+  width: 10px;
+  z-index: 1;
+}
+.card .tagHot:after {
+  border-bottom: 4px solid transparent;
+  border-right: 5px solid #b6363a;
+  bottom: -4px;
+  content: "";
+  display: block;
+  height: 0px;
+  left: -5px;
+  position: absolute;
+  width: 10px;
+  z-index: 1;
+}
+
+.card div {
+  transform: skew(355deg, 353deg);
+}

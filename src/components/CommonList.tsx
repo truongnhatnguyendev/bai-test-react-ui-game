@@ -11,7 +11,7 @@ interface CommonListProps {
 
 export const CommonList = ({ items }: CommonListProps) => {
   return (
-    <ul className="space-y-2 text-gray-300 mt-3 text-[15px]">
+    <ul className="space-y-5 text-gray-400 mt-3 text-[15px]">
       {items.map((item, index) => (
         <li key={index}>
           <Link

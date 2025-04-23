@@ -1,8 +1,9 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 import { GameSection } from "components/GameSection";
-import { GameCard, GameCardProps } from "components/Card";
+import { GameCard, GameCardProps } from "components/Card/Card";
 
 const games: GameCardProps[] = [
+  { title: "Deep Dive", image: "", tag: "HOT" },
   { title: "Deep Dive", image: "", tag: "HOT" },
   { title: "Match Hero", image: "", tag: "NEW" },
   { title: "Match Hero", image: "" },
