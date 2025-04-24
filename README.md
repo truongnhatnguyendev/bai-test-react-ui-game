@@ -14,7 +14,7 @@ Dưới đây là ảnh chụp giao diện hoàn chỉnh:
 
 ## 🚀 Link Deploy
 
-👉 [Xem demo tại đây](https://bai-test-react-ui-game-6fnldg5ca-nguyendevs-projects-43862de0.vercel.app/)
+👉 [Xem demo tại đây](https://bai-test-react-ui-game.vercel.app/)
 
 ---
 
