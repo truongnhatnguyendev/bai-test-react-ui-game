@@ -3,10 +3,12 @@ import "./App.css";
 import { Layout } from "./layout";
 import { Home } from "./pages/Home";
 import { GameRouter } from "./pages/Game/router";
+import { NotFound } from "pages/NotFound";
 const router = createBrowserRouter([
   {
     path: "",
     element: <Layout />,
+    errorElement: <NotFound />,
     children: [
       {
         index: true,

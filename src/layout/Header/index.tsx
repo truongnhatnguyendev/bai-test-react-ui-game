@@ -1,5 +1,5 @@
 import { CiSearch } from "react-icons/ci";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 const menus = [
   { label: "Home", to: "/" },
@@ -65,13 +65,13 @@ export const Header = () => {
               <CiSearch />
             </div>
             {menus.map((item, index) => (
-              <Link
+              <NavLink
                 key={index}
                 to={item.to}
                 className="uppercase text-[#CAD3E1] tracking-[0.42px]"
               >
                 {item.label}
-              </Link>
+              </NavLink>
             ))}
           </nav>
         </div>
