@@ -110,10 +110,19 @@ export const SliderBanner: React.FC<SliderBannerProps> = ({ banners }) => {
       </div>
       <div className="md:hidden block">
         <Swiper
-          className="!overflow-visible"
-          effect={"fade"}
+          className="!overflow-visible swiper-banner"
+          effect={"creative"}
+          spaceBetween={30}
+          creativeEffect={{
+            prev: {
+              shadow: true,
+              translate: [0, 0, -400],
+            },
+            next: {
+              translate: ["100%", 0, 0],
+            },
+          }}
           loop
-          navigation={true}
           pagination={{
             clickable: true,
           }}
