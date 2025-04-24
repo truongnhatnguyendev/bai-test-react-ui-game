@@ -1,13 +1,20 @@
+import { IGame } from "services/game/game.interface";
 import "./Card.css";
-export interface GameCardProps {
-  title: string;
-  tag?: "HOT" | "NEW";
-  image: string;
-}
+import { useNavigate } from "react-router-dom";
 
-export const GameCard = ({ title, tag, image }: GameCardProps) => {
+export const GameCard = ({ title, tag, image, id }: Partial<IGame>) => {
+  const navigator = useNavigate();
+
+  const handleClick = (id?: number) => {
+    if (!id) return;
+    navigator(`/game/${id}`);
+  };
+
   return (
-    <div className="card relative bg-primary-100 text-white rounded-xl w-[160px] h-[230px]">
+    <div
+      onClick={() => handleClick(id)}
+      className="card relative bg-primary-100 text-white rounded-xl w-[160px] h-[230px] cursor-pointer"
+    >
       <img
         src={image}
         alt={title}

@@ -1,0 +1,12 @@
+[
+  { "id": 1, "title": "Deep Dive", "image": "", "tag": "HOT" },
+  { "id": 2, "title": "Deep Dive", "image": "", "tag": "HOT" },
+  { "id": 3, "title": "Match Hero", "image": "", "tag": "NEW" },
+  { "id": 4, "title": "", "image": "/images/game.png" },
+  { "id": 5, "title": "", "image": "/images/game.png" },
+  { "id": 6, "title": "", "image": "/images/game.png" },
+  { "id": 7, "title": "", "image": "/images/game.png" },
+  { "id": 8, "title": "", "image": "/images/game.png" },
+  { "id": 9, "title": "", "image": "/images/game.png" },
+  { "id": 10, "title": "", "image": "/images/game.png" }
+]
