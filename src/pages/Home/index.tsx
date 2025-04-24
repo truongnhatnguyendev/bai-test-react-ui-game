@@ -7,7 +7,7 @@ export function Home() {
   return (
     <div className="space-y-6 bg-primary pt-6 overflow-hidden">
       <Banner />
-      <main className="px-6 md:px-12 p-5 container mx-auto">
+      <main className="px-4 md:px-12 p-5 container mx-auto">
         <MenuOptions />
         <ExclusiveGames />
         <Providers />
