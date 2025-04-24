@@ -48,7 +48,6 @@ const menuData = [
     content: <CommonList items={Informations} />,
   },
 ];
-const socialIcons = [FaTelegramPlane, FaFacebookF, FaInstagram, FaTwitter];
 
 export const Footer = () => {
   // State cho accordion mobile
@@ -64,9 +63,18 @@ export const Footer = () => {
             GET ANSWERS
           </button>
           <div className="flex justify-between text-xl text-gray-300 w-full">
-            {socialIcons.map((Icon, i) => (
-              <Icon key={i} />
-            ))}
+            <div className="w-6 h-6 bg-[#1EA1F2] rounded-full flex items-center justify-center text-center">
+              <FaTelegramPlane className="cursor-pointer text-lg" />
+            </div>
+            <div className="w-6 h-6 bg-blue-600 rounded-full flex items-center justify-center">
+              <FaFacebookF className="cursor-pointe text-lg" />
+            </div>
+            <div className="w-6 h-6 bg-gradient-to-tr rounded-lg from-yellow-400 via-pink-500 to-purple-600 flex items-center justify-center">
+              <FaInstagram className="cursor-pointer" />
+            </div>
+            <div className="flex items-center">
+              <FaTwitter className="cursor-pointer text-[#1EA1F2] text-2xl" />
+            </div>
           </div>
         </div>
 
@@ -118,9 +126,18 @@ export const Footer = () => {
         <div className="flex flex-col items-center gap-2 mt-2">
           <span className="text-base text-white mb-1">Follow Us</span>
           <div className="flex justify-center gap-7 text-2xl text-white">
-            {socialIcons.map((Icon, i) => (
-              <Icon key={i} />
-            ))}
+            <div className="w-6 h-6 bg-[#1EA1F2] rounded-full flex items-center justify-center text-center">
+              <FaTelegramPlane className="cursor-pointer text-lg" />
+            </div>
+            <div className="w-6 h-6 bg-blue-600 rounded-full flex items-center justify-center">
+              <FaFacebookF className="cursor-pointe text-lg" />
+            </div>
+            <div className="w-6 h-6 bg-gradient-to-tr rounded-lg from-yellow-400 via-pink-500 to-purple-600 flex items-center justify-center">
+              <FaInstagram className="cursor-pointer" />
+            </div>
+            <div className="flex items-center">
+              <FaTwitter className="cursor-pointer text-[#1EA1F2] text-2xl" />
+            </div>
           </div>
         </div>
 
